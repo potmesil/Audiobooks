@@ -14,7 +14,7 @@ namespace Audiobooks.WebApi
 				.ConfigureAppConfiguration((context, config) =>
 				{
 					config.AddJsonFile(
-						path: Path.Combine(context.HostingEnvironment.ContentRootPath, "..", "Shared", "appsettings.json"),
+						path: Path.Combine(context.HostingEnvironment.ContentRootPath, "..", "Shared", "AppSettings.json"),
 						optional: true,
 						reloadOnChange: true);
 				})

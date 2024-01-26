@@ -6,7 +6,7 @@
     <RootNamespace>Audiobooks.ImportJob</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\Shared\appsettings.json" Link="appsettings.json">
+    <Content Include="..\Shared\AppSettings.json" Link="AppSettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
